@@ -1,0 +1,42 @@
+import React from 'react';
+import './App.css'; // Import the CSS file for styling
+
+function PortfolioWindow() {
+  return (
+    // Main container for the retro window
+    <div className="retro-window">
+      
+      {/* --- Title Bar Section --- */}
+      <div className="title-bar">
+        
+        {/* Left side: Icon and Window Title */}
+        <div className="title-bar-left">
+          <div className="title-icon">P</div>
+          <div className="title-text">Portfolio.exe</div>
+        </div>
+        
+        {/* Right side: Minimize, Maximize, and Close buttons */}
+        <div className="title-bar-controls">
+          <button className="control-btn minimize" aria-label="Minimize"></button>
+          <button className="control-btn maximize" aria-label="Maximize"></button>
+          <button className="control-btn close" aria-label="Close">
+            <span className="close-x">×</span>
+          </button>
+        </div>
+      </div>
+
+      {/* --- Menu Bar Section --- */}
+      <div className="menu-bar">
+        {/* Using <u> tag to underline the shortcut key letters */}
+        <div className="menu-item"><u>F</u>ile</div>
+        <div className="menu-item"><u>E</u>dit</div>
+        <div className="menu-item"><u>V</u>iew</div>
+        <div className="menu-item"><u>O</u>ptions</div>
+        <div className="menu-item"><u>H</u>elp</div>
+      </div>
+      
+    </div>
+  );
+}
+
+export default PortfolioWindow;

@@ -1,0 +1,149 @@
+.profile-window {
+  font-family: "MS Sans Serif", "Microsoft Sans Serif", Geneva, sans-serif;
+  -webkit-font-smoothing: none;
+  background-color: #c0c0c0;
+
+ 
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  color: #000;
+}
+
+/* Banner area */
+.banner-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #404040; /* Dark grey fallback */
+  overflow: hidden;
+  border-bottom: 2px solid #808080;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Main content layout */
+.profile-content {
+  display: flex;
+  padding: 0 20px 20px 20px;
+  position: relative;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+/* Circular Avatar styling */
+.avatar-container {
+  margin-top: -30px; /* Pulls avatar up into the banner */
+  z-index: 2;
+}
+
+.avatar-placeholder {
+  width: 120px;
+  height: 120px;
+  background-color: #808080;
+  border-radius: 50%;
+  border: 3px solid #c0c0c0; /* Match window background */
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.avatar-img {
+  width: 120%;
+  height: 120%;
+  
+  object-fit: cover;
+  
+}
+
+/* Text and Buttons container */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+
+.profile-name {
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: bold;
+  
+}
+
+.profile-title {
+  font-size: 1rem;
+  margin: 2px 0;
+  font-weight: bold;
+}
+
+.profile-bio {
+  font-size: .75rem;
+  margin: 5px 0 0 0;
+  max-width: 400px;
+  line-height: 1.2;
+}
+
+/* Action buttons */
+.profile-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.retro-btn {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #000000 #000000 #ffffff;
+  padding: 4px 5px;
+  font-size: .75rem;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.retro-btn:active {
+  border-color: #000000 #ffffff #ffffff #000000;
+}
+
+.contact-btn {
+    font-size: 5rem !important;
+}
+
+
+/* Bottom Navigation Styling */
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c0c0c0;
+  border-top: 1px solid #808080;
+  padding: 10px 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-item {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  color: #0000ff; /* Classic Blue link color */
+  text-decoration: underline;
+}
+
+.nav-controls {
+  display: flex;
+  gap: 2px;
+}
