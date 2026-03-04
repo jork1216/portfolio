@@ -1,15 +1,12 @@
 import './App.css'
 import Home from './pages/Home'
-import ProfileHeader from './components/ProfileHeader';
+import wallpaper from './images/wallpaper.jpg'
 
 function App() {
-
   return (
-    <div>
+    <div className="app-wrapper" style={{ backgroundImage: `url(${wallpaper})` }} >
       <Home/>
-      <ProfileHeader/>
     </div>
-
   )
 }
 

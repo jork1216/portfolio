@@ -1,6 +1,6 @@
 import './ProfileHeader.css';
-import pfp from '../images/pfp.jpg';
-import banner from '../images/banner.jpg';
+import pfp from '../images/pfp1.jpg';
+import banner from '../images/banner1.jpg';
 
 function ProfileHeader() {
   return (
@@ -26,29 +26,18 @@ function ProfileHeader() {
             <h1 className="profile-name">John Carlo N. Ramos</h1>
             <p className="profile-title">Full Stack Web Developer</p>
             <p className="profile-bio">
-              Building modern web applications. Specialized in React, Node.js, and MySQL.
+              Building cool web applications. Specialized in Javascript, React, Node.js, and MySQL.
             </p>
           </div>
 
           <div className="profile-actions">
-            <button className="retro-btn">
+            <button className="contact-btn retro-btn">
               <span className="icon">📞</span> Contact Me
             </button>
-            <button className="retro-btn">
+            <button className="resume-btn retro-btn">
               <span className="icon">📄</span> View Resume
             </button>
           </div>
-        </div>
-      </div>
-
-      {/* --- Bottom Navigation Bar --- */}
-      <div className="bottom-nav">
-        <div className="nav-links">
-          <span className="nav-item active">Home</span>
-          <span className="nav-item">Projects</span>
-          <span className="nav-item">Skills</span>
-          <span className="nav-item">About</span>
-          <span className="nav-item">Contact</span>
         </div>
       </div>
     </div>
