@@ -1,13 +1,9 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 /* Main window container with the classic Windows 95/98 grey background and 3D borders */
 .retro-window {
   margin: 0px auto;
+  width: 100%;
   max-width: 800px;
   background-color: #e8e8e8 !important; /* Classic silver/grey */
   border: 2px solid;

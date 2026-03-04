@@ -1,0 +1,77 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-area {
+  width: 100%;
+  max-width: 800px;
+  height: 90vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+
+}
+
+/* Retro Win95 scrollbar */
+.scroll-area::-webkit-scrollbar {
+  width: 16px;
+}
+
+.scroll-area::-webkit-scrollbar-track {
+  background-color: #c0c0c0;
+  border-left: 1px solid #808080;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+}
+
+.scroll-area::-webkit-scrollbar-thumb:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+}
+
+.scroll-area::-webkit-scrollbar-button {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.scroll-area::-webkit-scrollbar-button:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+}
+
+/* Up arrow */
+.scroll-area::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpolygon points='8,4 13,11 3,11' fill='black'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Down arrow */
+.scroll-area::-webkit-scrollbar-button:vertical:increment {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpolygon points='8,12 13,5 3,5' fill='black'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.window-bottom-bar {
+  
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 800px;
+  height: 5px; /* matches menu-bar height in Navbar */
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-top: 0px solid #808080;
+  border-color: #808080 #808080 #808080 #ffffff;
+  border-radius: 0 0 8px 8px; /* both bottom corners rounded */
+  box-sizing: border-box;
+  z-index: 100;
+}
