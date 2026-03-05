@@ -5,6 +5,18 @@ html, body {
   font-size: 16px;
 }
 
+.desktop-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.home-layer {
+  position: relative;
+  z-index: 1;
+}
+
 .app-wrapper {
   min-height: 100vh;
   width: 100%;
@@ -28,6 +40,7 @@ html, body {
   position: absolute;
   top: 16px;
   left: 16px;
+  z-index: 0;
 }
 
 .app-icon-wrapper:active .app-icon-img {
@@ -39,7 +52,7 @@ html, body {
 }
 
 .app-icon-wrapper.selected .app-icon-label {
-  background-color: #000080;
+  background-color: rgba(0, 0, 128, 0.2); /* change 0.6 to any value 0–1 */
   color: white;
 }
 
