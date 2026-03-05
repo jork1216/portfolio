@@ -1,10 +1,8 @@
-
 html, body {
   margin: 0;
   padding: 0;
-  -webkit-text-size-adjust: 100%; /* Prevents font scaling in some mobile/desktop browsers */
-  font-size: 16px; /* Explicitly set the base size */
-  font-size: 105%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
 }
 
 .app-wrapper {
@@ -14,5 +12,51 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+}
+
+/* ===== APP ICON ===== */
+.app-icon-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  cursor: pointer;
+  user-select: none;
+  width: 72px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.app-icon-wrapper:active .app-icon-img {
+  filter: brightness(0.7) saturate(1.5);
+}
+
+.app-icon-wrapper.selected .app-icon-img {
+  filter: brightness(0.75) saturate(1.4);
+}
+
+.app-icon-wrapper.selected .app-icon-label {
+  background-color: #000080;
+  color: white;
+}
+
+.app-icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.app-icon-label {
+  font-family: "MS Sans Serif", "Microsoft Sans Serif", Geneva, sans-serif;
+  font-size: .8rem;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
+  line-height: 1.2;
+  word-break: break-word;
+  padding: 1px 2px;
 }
