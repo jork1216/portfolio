@@ -1,8 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  -webkit-text-size-adjust: 100%; /* Prevents font scaling in some mobile/desktop browsers */
+  font-size: 16px; /* Explicitly set the base size */
 }
 
 .app-wrapper {
