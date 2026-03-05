@@ -22,10 +22,16 @@
 
 /* ===== RETRO PANEL (the white boxes) ===== */
 .retro-panel {
-  background-color: #ffffff;
+  background-color: #f4f4f4;
   border: 2px solid;
   border-color: #ffffff #808080 #808080 #ffffff;
   font-size: 0.75rem;
+}
+
+.post-card {
+  background-color: #f4f4f4;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
 }
 
 .panel-title-bar {
@@ -82,15 +88,10 @@
 .post-avatar {
   width: 36px;
   height: 36px;
-  background-color: #000080;
-  color: white;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 0.75rem;
+  object-fit: cover;
   flex-shrink: 0;
+  border: 1px solid #808080;
 }
 
 .post-meta {
@@ -118,14 +119,17 @@
 /* Post image */
 .post-image-placeholder {
   width: 100%;
-  height: 90px;
-  background-color: #d0d0d0;
+  height: 180px;
   border: 1px solid #808080;
-  display: flex;
+  overflow: hidden;
+  
+}
+
+.post-image {
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
   justify-content: center;
-  align-items: center;
-  font-size: 0.75rem;
-  color: #555;
 }
 
 .post-body {
@@ -137,7 +141,7 @@
 
 .post-project-title {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0 0 4px 0;
 }
 
@@ -173,14 +177,11 @@
 
 /* Post action buttons */
 .post-actions {
+  color: #333;
   display: flex;
-  gap: 4px;
+  gap: 50px;
   padding: 6px 8px;
   border-top: 1px solid #c0c0c0;
-}
-
-.post-action-btn {
-  flex: 1;
   justify-content: center;
 }
 
@@ -220,7 +221,7 @@
 /* ===== PINNED PROJECTS ===== */
 .pinned-projects-grid {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 

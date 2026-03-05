@@ -1,4 +1,8 @@
 import './HomeContent.css';
+import flowershop from '../images/flowershop.jpg';
+import wedding from '../images/wedding.jpg';
+import biosensor from '../images/biosensor.jpg';
+import pfp from '../images/pfp1.jpg';
 
 function HomeContent() {
   return (
@@ -11,29 +15,26 @@ function HomeContent() {
         <div className="retro-panel">
           <div className="panel-title-bar">Intro</div>
           <div className="panel-body">
-            <div className="intro-item">
-              <span className="intro-icon">💼</span>
-              <span>Works at TechCorp (since 2021)</span>
-            </div>
+           
             <div className="intro-item">
               <span className="intro-icon">🎓</span>
-              <span>Studied Computer Science at Stanford University</span>
+              <span>Studied Computer Engineering at Southern Luzon State University</span>
             </div>
             <div className="intro-item">
               <span className="intro-icon">📍</span>
-              <span>Lives in San Francisco, CA</span>
+              <span>Lives in Lucena City, Philippines</span>
             </div>
             <div className="intro-item">
               <span className="intro-icon">🔗</span>
-              <span>cev-alew.cevr</span>
+              <span>junkcarlo.dev</span>
             </div>
             <div className="intro-item">
               <span className="intro-icon">🐙</span>
-              <span>Github: alexdevr</span>
+              <span>Github: junkcarlo16</span>
             </div>
             <div className="intro-item">
               <span className="intro-icon">💼</span>
-              <span>Linkedin: injalexdevr</span>
+              <span>Linkedin: John Carlo Ramos</span>
             </div>
           </div>
         </div>
@@ -44,7 +45,7 @@ function HomeContent() {
           <div className="panel-body">
             <div className="skills-list">
               <span className="skill-tag">JavaScript</span>
-              <span className="skill-tag">Python</span>
+              <span className="skill-tag">MySQL</span>
               <span className="skill-tag">React</span>
               <span className="skill-tag">Node.js</span>
             </div>
@@ -59,10 +60,10 @@ function HomeContent() {
         {/* Post Card 1 */}
         <div className="retro-panel post-card">
           <div className="post-header">
-            <div className="post-avatar">AR</div>
+            <img src={pfp} alt="avatar" className="post-avatar" />
             <div className="post-meta">
-              <span className="post-name">Alex Rodriguez</span>
-              <span className="post-time">20h · 🌐</span>
+              <span className="post-name">John Carlo N. Ramos</span>
+              <span className="post-time">February 2026 · 🌐</span>
             </div>
             <span className="post-more">···</span>
           </div>
@@ -70,18 +71,59 @@ function HomeContent() {
           <div className="post-body">
             {/* Featured Project Image Placeholder */}
             <div className="post-image-placeholder">
-              <span>📸 Project Screenshot</span>
+              <img src={flowershop} alt="Flower Shop PH" className="post-image" />
             </div>
             <div className="post-text">
-              <p className="post-project-title">Featured Project: DevFlow Collaboration Platform</p>
+              <p className="post-project-title">Flower Shop PH</p>
               <p className="post-description">
-                Building modern web applications. Specialized in React, Node.js, AWS, and modern full-stack.
+                A flower shop web application that delivers a responsive front-end design, RESTful APIs, and secure user authentication. 
               </p>
               <div className="post-tags">
                 <span className="post-tag">React</span>
-                <span className="post-tag">Node</span>
-                <span className="post-tag">GraphQL</span>
-                <span className="post-tag">AWS</span>
+                <span className="post-tag">Node.js</span>
+                <span className="post-tag">MySQL</span>
+                <span className="post-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="post-reactions">
+            <span>👍 69</span>
+            <span className="post-comments">💬 67 comments</span>
+          </div>
+
+          <div className="post-actions">
+            <span>👍 Like</span>
+            <span>💬 Comment</span>
+            <span>↗ Share</span>
+          </div>
+        </div>
+
+        {/* Post Card 2 */}
+        <div className="retro-panel post-card">
+          <div className="post-header">
+            <img src={pfp} alt="avatar" className="post-avatar" />
+            <div className="post-meta">
+              <span className="post-name">John Carlo N. Ramos</span>
+              <span className="post-time">February 2026 · 🌐</span>
+            </div>
+            <span className="post-more">···</span>
+          </div>
+
+          <div className="post-body">
+            {/* Featured Project Image Placeholder */}
+            <div className="post-image-placeholder">
+              <img src={wedding} alt="Wedding" className="post-image" />
+            </div>
+            <div className="post-text">
+              <p className="post-project-title">Wedding RSVP</p>
+              <p className="post-description">
+                A wedding RSVP web application using a MySQL database to securely manage guest lists, and event responses.                  </p>
+              <div className="post-tags">
+                <span className="post-tag">React</span>
+                <span className="post-tag">Node.js</span>
+                <span className="post-tag">MySQL</span>
+                <span className="post-tag">JavaScript</span>
               </div>
             </div>
           </div>
@@ -92,49 +134,52 @@ function HomeContent() {
           </div>
 
           <div className="post-actions">
-            <button className="retro-btn post-action-btn">👍 Like</button>
-            <button className="retro-btn post-action-btn">💬 Comment</button>
-            <button className="retro-btn post-action-btn">↗ Share</button>
+            <span>👍 Like</span>
+            <span>💬 Comment</span>
+            <span>↗ Share</span>
           </div>
         </div>
 
-        {/* Post Card 2 */}
+        {/* Post Card 3 */}
         <div className="retro-panel post-card">
           <div className="post-header">
-            <div className="post-avatar">AR</div>
+            <img src={pfp} alt="avatar" className="post-avatar" />
             <div className="post-meta">
-              <span className="post-name">Alex Rodriguez</span>
-              <span className="post-time">25h · 🌐</span>
+              <span className="post-name">John Carlo N. Ramos</span>
+              <span className="post-time">January 2026 · 🌐</span>
             </div>
             <span className="post-more">···</span>
           </div>
 
           <div className="post-body">
+            {/* Featured Project Image Placeholder */}
             <div className="post-image-placeholder">
-              <span>📸 Project Screenshot</span>
+              <img src={biosensor} alt="Biosensor" className="post-image" />
             </div>
             <div className="post-text">
-              <p className="post-project-title">E-commerce Site Launch</p>
+              <p className="post-project-title">Real-Time Biosensor Spectrum</p>
               <p className="post-description">
-                Just launched a new e-commerce platform built with Next.js and Stripe integration.
+              A web application for monitoring algae health using 
+              live serial data streaming from an Arduino Uno and an AS7431 spectral sensor.
               </p>
               <div className="post-tags">
-                <span className="post-tag">Next.js</span>
-                <span className="post-tag">Stripe</span>
+                <span className="post-tag">React</span>
+                <span className="post-tag">Node.js</span>
                 <span className="post-tag">MySQL</span>
+                <span className="post-tag">JavaScript</span>
               </div>
             </div>
           </div>
 
           <div className="post-reactions">
-            <span>👍 18</span>
+            <span>👍 12</span>
             <span className="post-comments">💬 3 comments</span>
           </div>
 
           <div className="post-actions">
-            <button className="retro-btn post-action-btn">👍 Like</button>
-            <button className="retro-btn post-action-btn">💬 Comment</button>
-            <button className="retro-btn post-action-btn">↗ Share</button>
+            <span>👍 Like</span>
+            <span>💬 Comment</span>
+            <span>↗ Share</span>
           </div>
         </div>
 
@@ -149,16 +194,16 @@ function HomeContent() {
           <div className="panel-body">
             <div className="pinned-projects-grid">
               <div className="pinned-project-card">
-                <div className="pinned-project-thumb">📊</div>
-                <span className="pinned-project-name">FitTrack</span>
+                <div className="pinned-project-thumb">🌻</div>
+                <span className="pinned-project-name">Flower Shop</span>
               </div>
               <div className="pinned-project-card">
-                <div className="pinned-project-thumb">💬</div>
-                <span className="pinned-project-name">ChatApp</span>
+                <div className="pinned-project-thumb">✍️</div>
+                <span className="pinned-project-name">Handwriting App</span>
               </div>
               <div className="pinned-project-card">
-                <div className="pinned-project-thumb">🌐</div>
-                <span className="pinned-project-name">Portfolio</span>
+                <div className="pinned-project-thumb">🔬</div>
+                <span className="pinned-project-name">Biosensor</span>
               </div>
             </div>
           </div>
@@ -181,7 +226,7 @@ function HomeContent() {
             <div className="tech-stack-grid">
               <div className="tech-icon js-icon">JS</div>
               <div className="tech-icon py-icon">🐍</div>
-              <div className="tech-icon db-icon">🗄️</div>
+              
             </div>
           </div>
         </div>
