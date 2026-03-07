@@ -8,7 +8,7 @@ function ProfileHeader() {
       {/* --- Banner Image Placeholder --- */}
       <div className="banner-placeholder">
         {/* Replace the src with your imported banner image */}
-        <img src={banner} alt="Workspace Banner" className="banner-img" />
+        <img src={banner} alt="Profile Banner" className="banner-img" />
       </div>
 
       <div className="profile-content">

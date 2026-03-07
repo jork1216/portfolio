@@ -156,3 +156,28 @@
     background-color: rgb(248, 255, 146) !important;
     font-weight: bold;
 }
+
+/* ============================================================
+   MOBILE LAYOUT — 390 x 844 (iPhone 14 / standard mobile)
+   Add your mobile overrides below this media query
+   ============================================================ */
+
+@media screen and (max-width: 390px) {
+  /* ----- PROFILE HEADER ----- */
+.profile-content {
+  display: flow-root;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+  position: relative;
+}
+
+.avatar-container {
+  margin-top: -50px; /* Pulls avatar up into the banner */
+}
+
+.info-section {
+  display:flow-root;
+  width: 100%;
+  
+}
+}
