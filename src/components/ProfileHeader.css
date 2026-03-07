@@ -162,7 +162,7 @@
    Add your mobile overrides below this media query
    ============================================================ */
 
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 360px) {
   /* ----- PROFILE HEADER ----- */
 .profile-content {
   display: flow-root;
