@@ -1,5 +1,4 @@
 .profile-window {
-  font-family: "MS Sans Serif", "Microsoft Sans Serif", Geneva, sans-serif;
   -webkit-font-smoothing: none;
   background-color: #ededed;
   border: 2px solid;
@@ -180,7 +179,7 @@
   }
 
   .avatar-container {
-    margin-top: -45px; 
+    margin-top: -70px; 
     margin-bottom: 10px;    /* Adds space between avatar and name */
   }
 
