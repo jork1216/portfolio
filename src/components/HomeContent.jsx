@@ -56,6 +56,137 @@ function HomeContent() {
 
         </div>      
 
+        {/* ===== MIDDLE COLUMN (Feed) ===== */}
+        <div className="middle-column">
+
+          {/* Post Card 1 */}
+          <div className="retro-panel post-card">
+            <div className="post-header">
+              <img src={pfp} alt="avatar" className="post-avatar" />
+              <div className="post-meta">
+                <span className="post-name">John Carlo N. Ramos</span>
+                <span className="post-time">February 2026 · 🌐</span>
+              </div>
+              <span className="post-more">···</span>
+            </div>
+
+            <div className="post-body">
+              {/* Featured Project Image Placeholder */}
+              <div className="post-image-placeholder">
+                <img src={flowershop} alt="Flower Shop PH" className="post-image" />
+              </div>
+              <div className="post-text">
+                <p className="post-project-title">Flower Shop PH</p>
+                <p className="post-description">
+                  A flower shop web application that delivers a responsive front-end design, RESTful APIs, and secure user authentication. 
+                </p>
+                <div className="post-tags">
+                  <span className="post-tag">React</span>
+                  <span className="post-tag">Node.js</span>
+                  <span className="post-tag">MySQL</span>
+                  <span className="post-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="post-reactions">
+              <span>👍 69</span>
+              <span className="post-comments">💬 67 comments</span>
+            </div>
+
+            <div className="post-actions">
+              <span>👍 Like</span>
+              <span>💬 Comment</span>
+              <span>↗ Share</span>
+            </div>
+          </div>
+
+          {/* Post Card 2 */}
+          <div className="retro-panel post-card">
+            <div className="post-header">
+              <img src={pfp} alt="avatar" className="post-avatar" />
+              <div className="post-meta">
+                <span className="post-name">John Carlo N. Ramos</span>
+                <span className="post-time">February 2026 · 🌐</span>
+              </div>
+              <span className="post-more">···</span>
+            </div>
+
+            <div className="post-body">
+              {/* Featured Project Image Placeholder */}
+              <div className="post-image-placeholder">
+                <img src={wedding} alt="Wedding" className="post-image" />
+              </div>
+              <div className="post-text">
+                <p className="post-project-title">Wedding RSVP</p>
+                <p className="post-description">
+                  A wedding RSVP web application using a MySQL database to securely manage guest lists, and event responses.                  </p>
+                <div className="post-tags">
+                  <span className="post-tag">React</span>
+                  <span className="post-tag">Node.js</span>
+                  <span className="post-tag">MySQL</span>
+                  <span className="post-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="post-reactions">
+              <span>👍 42</span>
+              <span className="post-comments">💬 7 comments</span>
+            </div>
+
+            <div className="post-actions">
+              <span>👍 Like</span>
+              <span>💬 Comment</span>
+              <span>↗ Share</span>
+            </div>
+          </div>
+
+          {/* Post Card 3 */}
+          <div className="retro-panel post-card">
+            <div className="post-header">
+              <img src={pfp} alt="avatar" className="post-avatar" />
+              <div className="post-meta">
+                <span className="post-name">John Carlo N. Ramos</span>
+                <span className="post-time">January 2026 · 🌐</span>
+              </div>
+              <span className="post-more">···</span>
+            </div>
+
+            <div className="post-body">
+              {/* Featured Project Image Placeholder */}
+              <div className="post-image-placeholder">
+                <img src={biosensor} alt="Biosensor" className="post-image" />
+              </div>
+              <div className="post-text">
+                <p className="post-project-title">Real-Time Biosensor Spectrum</p>
+                <p className="post-description">
+                A web application for monitoring algae health using 
+                live serial data streaming from an Arduino Uno and an AS7431 spectral sensor.
+                </p>
+                <div className="post-tags">
+                  <span className="post-tag">React</span>
+                  <span className="post-tag">Node.js</span>
+                  <span className="post-tag">MySQL</span>
+                  <span className="post-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="post-reactions">
+              <span>👍 12</span>
+              <span className="post-comments">💬 3 comments</span>
+            </div>
+
+            <div className="post-actions">
+              <span>👍 Like</span>
+              <span>💬 Comment</span>
+              <span>↗ Share</span>
+            </div>
+          </div>
+
+        </div>
+
         {/* ===== RIGHT COLUMN ===== */}
         <div className="right-column">
 
@@ -106,136 +237,7 @@ function HomeContent() {
 
       </div>
 
-      {/* ===== MIDDLE COLUMN (Feed) ===== */}
-      <div className="middle-column">
 
-        {/* Post Card 1 */}
-        <div className="retro-panel post-card">
-          <div className="post-header">
-            <img src={pfp} alt="avatar" className="post-avatar" />
-            <div className="post-meta">
-              <span className="post-name">John Carlo N. Ramos</span>
-              <span className="post-time">February 2026 · 🌐</span>
-            </div>
-            <span className="post-more">···</span>
-          </div>
-
-          <div className="post-body">
-            {/* Featured Project Image Placeholder */}
-            <div className="post-image-placeholder">
-              <img src={flowershop} alt="Flower Shop PH" className="post-image" />
-            </div>
-            <div className="post-text">
-              <p className="post-project-title">Flower Shop PH</p>
-              <p className="post-description">
-                A flower shop web application that delivers a responsive front-end design, RESTful APIs, and secure user authentication. 
-              </p>
-              <div className="post-tags">
-                <span className="post-tag">React</span>
-                <span className="post-tag">Node.js</span>
-                <span className="post-tag">MySQL</span>
-                <span className="post-tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="post-reactions">
-            <span>👍 69</span>
-            <span className="post-comments">💬 67 comments</span>
-          </div>
-
-          <div className="post-actions">
-            <span>👍 Like</span>
-            <span>💬 Comment</span>
-            <span>↗ Share</span>
-          </div>
-        </div>
-
-        {/* Post Card 2 */}
-        <div className="retro-panel post-card">
-          <div className="post-header">
-            <img src={pfp} alt="avatar" className="post-avatar" />
-            <div className="post-meta">
-              <span className="post-name">John Carlo N. Ramos</span>
-              <span className="post-time">February 2026 · 🌐</span>
-            </div>
-            <span className="post-more">···</span>
-          </div>
-
-          <div className="post-body">
-            {/* Featured Project Image Placeholder */}
-            <div className="post-image-placeholder">
-              <img src={wedding} alt="Wedding" className="post-image" />
-            </div>
-            <div className="post-text">
-              <p className="post-project-title">Wedding RSVP</p>
-              <p className="post-description">
-                A wedding RSVP web application using a MySQL database to securely manage guest lists, and event responses.                  </p>
-              <div className="post-tags">
-                <span className="post-tag">React</span>
-                <span className="post-tag">Node.js</span>
-                <span className="post-tag">MySQL</span>
-                <span className="post-tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="post-reactions">
-            <span>👍 42</span>
-            <span className="post-comments">💬 7 comments</span>
-          </div>
-
-          <div className="post-actions">
-            <span>👍 Like</span>
-            <span>💬 Comment</span>
-            <span>↗ Share</span>
-          </div>
-        </div>
-
-        {/* Post Card 3 */}
-        <div className="retro-panel post-card">
-          <div className="post-header">
-            <img src={pfp} alt="avatar" className="post-avatar" />
-            <div className="post-meta">
-              <span className="post-name">John Carlo N. Ramos</span>
-              <span className="post-time">January 2026 · 🌐</span>
-            </div>
-            <span className="post-more">···</span>
-          </div>
-
-          <div className="post-body">
-            {/* Featured Project Image Placeholder */}
-            <div className="post-image-placeholder">
-              <img src={biosensor} alt="Biosensor" className="post-image" />
-            </div>
-            <div className="post-text">
-              <p className="post-project-title">Real-Time Biosensor Spectrum</p>
-              <p className="post-description">
-              A web application for monitoring algae health using 
-              live serial data streaming from an Arduino Uno and an AS7431 spectral sensor.
-              </p>
-              <div className="post-tags">
-                <span className="post-tag">React</span>
-                <span className="post-tag">Node.js</span>
-                <span className="post-tag">MySQL</span>
-                <span className="post-tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="post-reactions">
-            <span>👍 12</span>
-            <span className="post-comments">💬 3 comments</span>
-          </div>
-
-          <div className="post-actions">
-            <span>👍 Like</span>
-            <span>💬 Comment</span>
-            <span>↗ Share</span>
-          </div>
-        </div>
-
-      </div>
 
       
     </div>
