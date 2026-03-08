@@ -161,8 +161,7 @@
    Add your mobile overrides below this media query
    ============================================================ */
 
-@media screen and (min-width: 360px) {
-  /* ----- PROFILE HEADER ----- */
+@media screen and (max-width: 600px) {  /* ----- PROFILE HEADER ----- */
   .profile-content {
     display: flex;
     flex-direction: column; /* Stacks avatar and info-section vertically */

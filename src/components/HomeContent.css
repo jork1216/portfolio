@@ -272,3 +272,27 @@
   font-size: 0.8rem;
   color: #000;
 }
+
+@media screen and (max-width: 600px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .left-column,
+  .right-column {
+    width: 50%;
+    flex-shrink: 1;
+    flex: 1;
+  }
+
+  .middle-column {
+    width: 100%;
+  }
+}

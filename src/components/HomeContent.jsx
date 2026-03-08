@@ -7,49 +7,101 @@ import pfp from '../images/pfp1.jpg';
 function HomeContent() {
   return (
     <div className="main-layout">
+      
+       {/* Top row: left + right side by side */}
+      <div className="top-row">
+        {/* ===== LEFT COLUMN ===== */}
+        <div className="left-column">
 
-      {/* ===== LEFT COLUMN ===== */}
-      <div className="left-column">
-
-        {/* Intro Panel */}
-        <div className="retro-panel">
-          <div className="panel-title-bar">Intro</div>
-          <div className="panel-body">
-           
-            <div className="intro-item">
-              <span className="intro-icon">🎓</span>
-              <span>Studied Computer Engineering at Southern Luzon State University</span>
-            </div>
-            <div className="intro-item">
-              <span className="intro-icon">📍</span>
-              <span>Lives in Lucena City, Philippines</span>
-            </div>
-            <div className="intro-item">
-              <span className="intro-icon">🔗</span>
-              <span>junkcarlo.dev</span>
-            </div>
-            <div className="intro-item">
-              <span className="intro-icon">🐙</span>
-              <span>Github: junkcarlo16</span>
-            </div>
-            <div className="intro-item">
-              <span className="intro-icon">💼</span>
-              <span>Linkedin: John Carlo Ramos</span>
+          {/* Intro Panel */}
+          <div className="retro-panel">
+            <div className="panel-title-bar">Intro</div>
+            <div className="panel-body">
+            
+              <div className="intro-item">
+                <span className="intro-icon">🎓</span>
+                <span>Studied Computer Engineering at Southern Luzon State University</span>
+              </div>
+              <div className="intro-item">
+                <span className="intro-icon">📍</span>
+                <span>Lives in Lucena City, Philippines</span>
+              </div>
+              <div className="intro-item">
+                <span className="intro-icon">🔗</span>
+                <span>junkcarlo.dev</span>
+              </div>
+              <div className="intro-item">
+                <span className="intro-icon">🐙</span>
+                <span>Github: junkcarlo16</span>
+              </div>
+              <div className="intro-item">
+                <span className="intro-icon">💼</span>
+                <span>Linkedin: John Carlo Ramos</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Skills Panel */}
-        <div className="retro-panel">
-          <div className="panel-title-bar">Skills</div>
-          <div className="panel-body">
-            <div className="skills-list">
-              <span className="skill-tag">JavaScript</span>
-              <span className="skill-tag">MySQL</span>
-              <span className="skill-tag">React</span>
-              <span className="skill-tag">Node.js</span>
+          {/* Skills Panel */}
+          <div className="retro-panel">
+            <div className="panel-title-bar">Skills</div>
+            <div className="panel-body">
+              <div className="skills-list">
+                <span className="skill-tag">JavaScript</span>
+                <span className="skill-tag">MySQL</span>
+                <span className="skill-tag">React</span>
+                <span className="skill-tag">Node.js</span>
+              </div>
             </div>
           </div>
+
+        </div>      
+
+        {/* ===== RIGHT COLUMN ===== */}
+        <div className="right-column">
+
+          {/* Pinned Projects Panel */}
+          <div className="retro-panel">
+            <div className="panel-title-bar">Pinned Projects</div>
+            <div className="panel-body">
+              <div className="pinned-projects-grid">
+                <div className="pinned-project-card">
+                  <div className="pinned-project-thumb">🌻</div>
+                  <span className="pinned-project-name">Flower Shop</span>
+                </div>
+                <div className="pinned-project-card">
+                  <div className="pinned-project-thumb">✍️</div>
+                  <span className="pinned-project-name">Handwriting App</span>
+                </div>
+                <div className="pinned-project-card">
+                  <div className="pinned-project-thumb">🔬</div>
+                  <span className="pinned-project-name">Biosensor</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Panel */}
+          <div className="retro-panel">
+            <div className="panel-title-bar">Contact</div>
+            <div className="panel-body">
+              <button className="retro-btn contact-btn full-width-btn">
+                ✉ Send Message
+              </button>
+            </div>
+          </div>
+
+          {/* Tech Stack Panel */}
+          <div className="retro-panel">
+            <div className="panel-title-bar">Tech Stack</div>
+            <div className="panel-body">
+              <div className="tech-stack-grid">
+                <div className="tech-icon js-icon">JS</div>
+                <div className="tech-icon py-icon">🐍</div>
+                
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -185,53 +237,7 @@ function HomeContent() {
 
       </div>
 
-      {/* ===== RIGHT COLUMN ===== */}
-      <div className="right-column">
-
-        {/* Pinned Projects Panel */}
-        <div className="retro-panel">
-          <div className="panel-title-bar">Pinned Projects</div>
-          <div className="panel-body">
-            <div className="pinned-projects-grid">
-              <div className="pinned-project-card">
-                <div className="pinned-project-thumb">🌻</div>
-                <span className="pinned-project-name">Flower Shop</span>
-              </div>
-              <div className="pinned-project-card">
-                <div className="pinned-project-thumb">✍️</div>
-                <span className="pinned-project-name">Handwriting App</span>
-              </div>
-              <div className="pinned-project-card">
-                <div className="pinned-project-thumb">🔬</div>
-                <span className="pinned-project-name">Biosensor</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Panel */}
-        <div className="retro-panel">
-          <div className="panel-title-bar">Contact</div>
-          <div className="panel-body">
-            <button className="retro-btn contact-btn full-width-btn">
-              ✉ Send Message
-            </button>
-          </div>
-        </div>
-
-        {/* Tech Stack Panel */}
-        <div className="retro-panel">
-          <div className="panel-title-bar">Tech Stack</div>
-          <div className="panel-body">
-            <div className="tech-stack-grid">
-              <div className="tech-icon js-icon">JS</div>
-              <div className="tech-icon py-icon">🐍</div>
-              
-            </div>
-          </div>
-        </div>
-
-      </div>
+      
     </div>
   );
 }
