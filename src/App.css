@@ -65,11 +65,12 @@ html, body {
 
 .app-icon-label {
   font-family: "MS Sans Serif", "Microsoft Sans Serif", Geneva, sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
   color: white;
   text-align: center;
   text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
   line-height: 1.2;
   word-break: break-word;
   padding: 1px 2px;
+  width: 90px;
 }
