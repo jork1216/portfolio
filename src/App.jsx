@@ -13,7 +13,7 @@ function App() {
     setShowHome(prev => {
       const next = !prev
       if (next && audioRef.current) {
-        audioRef.current.volume = 0.8  // adjust volume (0.0 – 1.0)
+        audioRef.current.volume = 1  // adjust volume (0.0 – 1.0)
         audioRef.current.play()
       } else if (!next && audioRef.current) {
         audioRef.current.pause()
@@ -27,7 +27,7 @@ function App() {
     <div className="app-wrapper" style={{ backgroundImage: `url(${wallpaper})` }}>
 
       {/* Hidden audio element */}
-      <audio ref={audioRef} src={bgMusic} loop />
+      <audio ref={audioRef} src={bgMusic} />
 
       <div className="desktop-layer">
         <div
