@@ -13,8 +13,10 @@ function App() {
     setShowHome(prev => {
       const next = !prev
       if (next && audioRef.current) {
-        audioRef.current.volume = 1  // adjust volume (0.0 – 1.0)
-        audioRef.current.play()
+        audioRef.current.volume = .5  // adjust volume (0.0 – 1.0)
+        setTimeout(() => {
+          audioRef.current.play()
+        }, 800)
       } else if (!next && audioRef.current) {
         audioRef.current.pause()
         audioRef.current.currentTime = 0
