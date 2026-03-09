@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
-import wallpaper from './images/wallpaper.jpg'
+import wallpaper from './images/wallpaper1.webp'
 import myportfolio from './images/myportfolio.png'
 
 function App() {

@@ -1,6 +1,6 @@
 import './ProfileHeader.css';
-import pfp from '../images/pfp1.jpg';
-import banner from '../images/banner1.jpg';
+import pfp from '../images/pfp.webp';
+import banner from '../images/banner1.webp';
 
 function ProfileHeader() {
   return (

@@ -20,7 +20,7 @@ html, body {
 .app-wrapper {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/wallpaper1.png') !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/wallpaper1.webp') !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
