@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
 import wallpaper from './images/wallpaper1.webp'
-import myportfolio from './images/myportfolio.png'
+import myportfolio from './images/myportfolio.webp'
 
 function App() {
   const [showHome, setShowHome] = useState(false)

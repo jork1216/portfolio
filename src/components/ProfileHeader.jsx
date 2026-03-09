@@ -8,7 +8,7 @@ function ProfileHeader() {
       {/* --- Banner Image Placeholder --- */}
       <div className="banner-placeholder">
         {/* Replace the src with your imported banner image */}
-        <img src={banner} alt="Profile Banner" className="banner-img" />
+        <img src={banner} alt="Profile Banner" className="banner-img" loading="lazy"/>
       </div>
 
       <div className="profile-content">
@@ -16,7 +16,7 @@ function ProfileHeader() {
         <div className="avatar-container">
           <div className="avatar-placeholder">
             {/* Replace the src with your imported profile picture */}
-            <img src={pfp} alt="John Carlo" className="avatar-img" />
+            <img src={pfp} alt="John Carlo" className="avatar-img" loading="lazy"/>
           </div>
         </div>
 
