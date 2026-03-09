@@ -151,6 +151,10 @@
     font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 .resume-btn {
     background-color: rgb(248, 255, 146) !important;
     font-weight: bold;

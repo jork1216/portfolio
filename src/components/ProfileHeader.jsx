@@ -34,9 +34,12 @@ function ProfileHeader() {
             <button className="contact-btn retro-btn">
               <span className="icon">📞</span> Contact Me
             </button>
-            <button className="resume-btn retro-btn">
-              <span className="icon">📄</span> View Resume
-            </button>
+            
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="resume-btn retro-btn">
+                <span className="icon">📄</span> View Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
