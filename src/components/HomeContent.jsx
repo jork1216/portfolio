@@ -1,8 +1,8 @@
 import './HomeContent.css';
-import flowershop from '../images/flowershop.jpg';
-import wedding from '../images/wedding.jpg';
-import biosensor from '../images/biosensor.jpg';
-import pfp from '../images/pfp1.jpg';
+import flowershop from '../images/flowershop.webp';
+import wedding from '../images/wedding.webp';
+import biosensor from '../images/biosensor.webp';
+import pfp from '../images/pfp.webp';
 
 function HomeContent() {
   return (
