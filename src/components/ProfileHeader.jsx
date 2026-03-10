@@ -31,9 +31,11 @@ function ProfileHeader() {
           </div>
 
           <div className="profile-actions">
-            <button className="contact-btn retro-btn">
-              <span className="icon">📞</span> Contact Me
-            </button>
+            <a href="https://mail.google.com/mail/?view=cm&to=ramosjohncarlo16@gmail.com" target="_blank" rel="noopener noreferrer">
+              <button className="contact-btn retro-btn">
+                <span className="icon">📞</span> Contact Me
+              </button>
+            </a>
             
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="resume-btn retro-btn">
