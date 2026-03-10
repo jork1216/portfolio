@@ -10,8 +10,8 @@ const INTRO_ITEMS = [
   { icon: '🎓', text: 'Studied Computer Engineering at Southern Luzon State University' },
   { icon: '📍', text: 'Lives in Lucena City, Philippines' },
   { icon: '🔗', text: 'junkcarlo.dev' },
-  { icon: '🐙', text: 'Github: junkcarlo16' },
-  { icon: '💼', text: 'Linkedin: John Carlo Ramos' },
+  { icon: '📷', text: 'junkcarlo16' },
+  { icon: '📧', text: 'ramosjohncarlo16@gmail.com' },
 ];
 
 const SKILLS = ['JavaScript', 'MySQL', 'React', 'Node.js'];
