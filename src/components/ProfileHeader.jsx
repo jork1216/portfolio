@@ -39,7 +39,7 @@ function ProfileHeader() {
             
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="resume-btn retro-btn">
-                <span className="icon">📄</span> View Resume
+                <span className="icon">📝</span> View Resume
               </button>
             </a>
           </div>

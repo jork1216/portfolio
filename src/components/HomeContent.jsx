@@ -168,9 +168,11 @@ function RightColumn() {
       <div className="retro-panel">
         <div className="panel-title-bar">Contact</div>
         <div className="panel-body">
-          <button className="retro-btn contact-btn full-width-btn">
-            ✉ Send Message
-          </button>
+          <a href="https://www.facebook.com/john.carlo.n.ramos.2024" target="_blank" rel="noopener noreferrer">
+            <button className="retro-btn contact-btn full-width-btn">
+              📩 Facebook Message
+            </button>
+          </a>
         </div>
       </div>
 
