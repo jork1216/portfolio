@@ -31,7 +31,7 @@ function ProfileHeader() {
           </div>
 
           <div className="profile-actions">
-            <a href="https://mail.google.com/mail/?view=cm&to=ramosjohncarlo16@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:ramosjohncarlo16@gmail.com">
               <button className="contact-btn retro-btn">
                 <span className="icon">📞</span> Contact Me
               </button>
