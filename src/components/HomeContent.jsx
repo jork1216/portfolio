@@ -9,12 +9,12 @@ import pfp from '../images/pfp.webp';
 const INTRO_ITEMS = [
   { icon: '🎓', text: 'Studied Computer Engineering at Southern Luzon State University' },
   { icon: '📍', text: 'Lives in Lucena City, Philippines' },
-  { icon: '🔗', text: 'junkcarlo.dev' },
-  { icon: '📷', text: 'junkcarlo16' },
-  { icon: '📧', text: 'ramosjohncarlo16@gmail.com' },
+  { icon: '🔗', text: 'github.com/jork1216' },
+  { icon: '💻', text: 'jork1216' },
+  { icon: '📧', text: 'ramosjohncarlo16 @gmail.com' },
 ];
 
-const SKILLS = ['JavaScript', 'MySQL', 'React', 'Node.js'];
+const SKILLS = ['JavaScript', 'MySQL', 'React', 'Node.js', 'Firebase'];
 
 const POSTS = [
   {
@@ -24,7 +24,7 @@ const POSTS = [
     title: 'Flower Shop PH',
     description:
       'A flower shop web application that delivers a responsive front-end design, RESTful APIs, and secure user authentication.',
-    tags: ['React', 'Node.js', 'MySQL', 'JavaScript'],
+    tags: ['React', 'Node.js', 'MySQL', 'JavaScript','Firebase'],
     date: 'February 2026',
     likes: 69,
     comments: 67,
