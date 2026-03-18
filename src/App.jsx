@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <div className="home-layer">
-        {showHome && <Home />}
+        {showHome && <Home onClose={() => setShowHome(false)} />}
       </div>
 
     </div>

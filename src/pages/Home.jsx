@@ -3,10 +3,10 @@ import ProfileHeader from '../components/ProfileHeader';
 import HomeContent from '../components/HomeContent';
 import Navbar from '../components/Navbar';
 
-function Home() {
+function Home({ onClose }) {
   return (
     <div className="home-wrapper">
-      <Navbar />
+      <Navbar onClose={onClose} />
 
       <div className="scroll-area">
         <ProfileHeader />

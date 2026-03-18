@@ -1,7 +1,7 @@
 import './Navbar.css';
 
 
-function Navbar() {
+function Navbar({ onClose }) {
     return (
     // Main container for the retro window
     <div className="retro-window">
@@ -19,7 +19,7 @@ function Navbar() {
         <div className="title-bar-controls">
           <button className="control-btn minimize" aria-label="Minimize"></button>
           <button className="control-btn maximize" aria-label="Maximize"></button>
-          <button className="control-btn close" aria-label="Close">
+          <button className="control-btn close" aria-label="Close" onClick={onClose}>
             <span className="close-x">×</span>
           </button>
         </div>
